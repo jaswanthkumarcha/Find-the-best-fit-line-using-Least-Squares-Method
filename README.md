@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 x=np.array(eval(input()))
 y=np.array(eval(input()))
 x_mean=np.mean(x)
-y_mean=np.mean👍
+y_mean=np.mean
 num,denum=0,0
 for i in range(len(x)):
   num+=(x[i]-x_mean)*(y[i]-y_mean)
